@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dirgha Kathiriya — Senior Android & Software Engineer</title>
+  <meta name="description" content="Senior Android & Software Engineer with 12+ years of experience. Android (Java/Kotlin), Jetpack, CI/CD, Firebase. Selected projects, experience, and certifications." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👨‍💻</text></svg>">
+
+  <!-- Open Graph / Twitter (replace og:image with your hosted image URL later) -->
+  <meta property="og:title" content="Dirgha Kathiriya — Portfolio" />
+  <meta property="og:description" content="Senior Android & Software Engineer with 12+ years of experience in Java/Kotlin, Jetpack, CI/CD, Firebase." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <style>
+    :root{
+      --bg: #0b0f17;        /* deep navy */
+      --panel: #111725;     /* card bg */
+      --muted: #6b7280;     /* slate */
+      --text: #e5e7eb;      /* light */
+      --accent: #22d3ee;    /* cyan */
+      --accent2:#a78bfa;    /* purple */
+      --ring: rgba(34,211,238,.35);
+      --radius: 16px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 10% -10%, rgba(167,139,250,.15), transparent),
+                  radial-gradient(900px 600px at 100% 10%, rgba(34,211,238,.12), transparent),
+                  var(--bg);
+      color:var(--text);
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{opacity:.9; text-decoration:underline}
+    .container{max-width:1100px; margin:0 auto; padding:24px}
+    header{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 0}
+    .brand{display:flex; gap:14px; align-items:center}
+    .avatar{width:56px; height:56px; border-radius:50%; background:linear-gradient(135deg, var(--accent), var(--accent2)); display:grid; place-items:center; color:#0b0f17; font-weight:700}
+    .nav a{margin-left:16px; padding:10px 14px; border-radius:999px; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.06)}
+    .nav a.btn{background:linear-gradient(135deg, var(--accent), var(--accent2)); color:#0b0f17; font-weight:600; border:none}
+
+    .hero{display:grid; grid-template-columns:1.25fr .75fr; gap:28px; align-items:center; padding:10px 0 28px}
+    .hero h1{font-size:40px; line-height:1.15; margin:0 0 10px}
+    .hero p{color:var(--text); opacity:.9; margin:8px 0}
+    .badge{display:inline-block; padding:6px 10px; border-radius:999px; background:rgba(167,139,250,.15); border: 1px solid rgba(167,139,250,.35); color:#e9e5ff; font-weight:600}
+
+    .grid{display:grid; gap:18px}
+    .grid.cols-3{grid-template-columns:repeat(3, 1fr)}
+    .grid.cols-2{grid-template-columns:repeat(2, 1fr)}
+    @media (max-width: 920px){ .hero{grid-template-columns:1fr} .grid.cols-3{grid-template-columns:1fr 1fr} }
+    @media (max-width: 640px){ .grid.cols-3, .grid.cols-2{grid-template-columns:1fr} .hero h1{font-size:32px} }
+
+    section{margin:30px 0}
+    .card{background:var(--panel); border:1px solid rgba(255,255,255,.06); border-radius:var(--radius); padding:18px; box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .card:hover{outline:2px solid var(--ring)}
+    .card h3{margin:0 0 6px}
+    .muted{color:var(--muted)}
+    .chip{display:inline-block; padding:6px 10px; border-radius:999px; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.06); margin:6px 6px 0 0; font-size:13px}
+
+    .list{margin:0; padding-left:18px}
+    .list li{margin:6px 0}
+
+    footer{margin:28px 0 10px; color:var(--muted); font-size:14px}
+    .cta{display:flex; gap:12px; flex-wrap:wrap; margin-top:12px}
+    .cta a{padding:10px 14px; border-radius:12px; border:1px solid rgba(255,255,255,.06); background:rgba(255,255,255,.04)}
+    .cta a.primary{background:linear-gradient(135deg, var(--accent), var(--accent2)); color:#0b0f17; font-weight:700}
+
+    .section-title{display:flex; align-items:center; gap:10px; margin:0 0 10px}
+    .section-title .dot{width:8px; height:8px; border-radius:50%; background:linear-gradient(135deg, var(--accent), var(--accent2))}
+
+    code.inline{background:rgba(255,255,255,.06); padding:2px 6px; border-radius:8px; border:1px solid rgba(255,255,255,.08)}
+  </style>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dirgha Kathiriya",
+    "jobTitle": "Senior Android & Software Engineer",
+    "address": {"@type":"PostalAddress","addressLocality":"Surrey","addressRegion":"BC","addressCountry":"Canada"},
+    "email": "mailto:dirghakathiriya@gmail.com",
+    "telephone": "+1-587-966-9124",
+    "sameAs": [
+      "https://www.linkedin.com/in/dirghak"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header aria-label="Top Navigation">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">DK</div>
+        <div>
+          <strong style="font-size:18px">Dirgha Kathiriya</strong><br/>
+          <span class="muted">Senior Android & Software Engineer • 12+ yrs</span>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a class="btn" href="mailto:dirghakathiriya@gmail.com" rel="noopener">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div>
+        <span class="badge">Android • Kotlin/Java • Jetpack • Firebase • CI/CD</span>
+        <h1>Building reliable Android apps that scale — with a sharp eye on performance & UX.</h1>
+        <p>
+          I’m a Surrey, BC–based engineer with deep experience across the Android stack: modern architectures (MVVM, Clean), Jetpack, offline-first data, and CI/CD automation. I partner closely with product and design to ship features that users love — and keep them stable at scale.
+        </p>
+        <div class="cta">
+          <a class="primary" href="#projects">View Projects</a>
+          <a href="#contact">Get in touch</a>
+          <a href="resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
+        </div>
+      </div>
+      <div>
+        <div class="card">
+          <h3 style="margin-top:0">Quick Wins</h3>
+          <ul class="list">
+            <li>Reduced crash rate by <strong>50%</strong> with robust testing & CI/CD.</li>
+            <li>Improved delivery speed by <strong>30%</strong> via pipelines & automation.</li>
+            <li>Boosted app performance by <strong>80%</strong> through refactoring & architecture.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-title"><span class="dot"></span><h2 style="margin:0">Skills</h2></div>
+      <div class="grid cols-3">
+        <div class="card">
+          <h3>Languages & Frameworks</h3>
+          <p class="muted">Kotlin, Java, Jetpack Compose, Android SDK/NDK, Retrofit, Volley</p>
+        </div>
+        <div class="card">
+          <h3>Architecture</h3>
+          <p class="muted">MVVM, MVP, MVC, Clean Architecture</p>
+        </div>
+        <div class="card">
+          <h3>Data & Cloud</h3>
+          <p class="muted">Room, SQLite, Firebase (Auth, Firestore, FCM, Analytics), AWS (basic)</p>
+        </div>
+        <div class="card">
+          <h3>Tooling & Quality</h3>
+          <p class="muted">JUnit, Espresso, Crashlytics, Git/GitHub, Jenkins, GitHub Actions</p>
+        </div>
+        <div class="card">
+          <h3>Process</h3>
+          <p class="muted">Agile/Scrum, code reviews, mentoring, app store deployment</p>
+        </div>
+        <div class="card">
+          <h3>Specialties</h3>
+          <p class="muted">Performance optimization, offline-first, accessibility, API integration</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="section-title"><span class="dot"></span><h2 style="margin:0">Selected Projects</h2></div>
+      <div class="grid cols-3">
+        <article class="card">
+          <h3>Farm365</h3>
+          <p class="muted">Animal husbandry app to record livestock, track milk production, and book vet appointments.</p>
+          <div>
+            <span class="chip">Jetpack</span><span class="chip">Room</span><span class="chip">Retrofit</span><span class="chip">Push</span>
+          </div>
+          <p><a href="https://play.google.com/store/apps/details?id=com.ps.farm365" target="_blank" rel="noopener">Play Store →</a></p>
+        </article>
+        <article class="card">
+          <h3>Farm365 Partner</h3>
+          <p class="muted">Tracks lactation cycles and manages breeding events (insemination, PD, calving).</p>
+          <div>
+            <span class="chip">Jetpack</span><span class="chip">Room</span><span class="chip">Retrofit</span>
+          </div>
+          <p><a href="https://play.google.com/store/apps/details?id=com.prompt.promptai" target="_blank" rel="noopener">Play Store →</a></p>
+        </article>
+        <article class="card">
+          <h3>Amul AI</h3>
+          <p class="muted">Amul farmers track breeding cycles and key dairy events for herd health.</p>
+          <div>
+            <span class="chip">Jetpack</span><span class="chip">Room</span><span class="chip">Retrofit</span>
+          </div>
+          <p><a href="https://play.google.com/store/apps/details?id=com.prompt.amulai" target="_blank" rel="noopener">Play Store →</a></p>
+        </article>
+        <article class="card">
+          <h3>Prompt Device App</h3>
+          <p class="muted">Connects to milk fat testing machines via Bluetooth; stores offline and syncs when online.</p>
+          <div>
+            <span class="chip">Bluetooth</span><span class="chip">Offline-first</span><span class="chip">Embedded</span>
+          </div>
+          <p><a href="https://www.promptsoftech.com/case-studies/milk-fat-testing-solution.html" target="_blank" rel="noopener">Case Study →</a></p>
+        </article>
+        <article class="card">
+          <h3>Matrubharti eBooks</h3>
+          <p class="muted">Multi-language reader (Gujarati/Hindi/Marathi/English) with IAP; 1M+ users.</p>
+          <div>
+            <span class="chip">Java</span><span class="chip">EPUB</span><span class="chip">IAP</span>
+          </div>
+          <p><a href="https://play.google.com/store/apps/details?id=com.nichetech.matrubharti" target="_blank" rel="noopener">Play Store →</a></p>
+        </article>
+        <article class="card">
+          <h3>Biz-Esperta</h3>
+          <p class="muted">Sales and survey management with product catalogue and order flow.</p>
+          <div>
+            <span class="chip">Enterprise</span><span class="chip">Android</span>
+          </div>
+          <p><a href="https://play.google.com/store/apps/details?id=com.appesperta.bizesperta" target="_blank" rel="noopener">Play Store →</a></p>
+        </article>
+      </div>
+      <p class="muted" style="margin-top:10px">More projects: McKesson Event apps, Drive Safe, RMC public services, NowArchive, Harken NFC surveys, and more.</p>
+    </section>
+
+    <section id="experience">
+      <div class="section-title"><span class="dot"></span><h2 style="margin:0">Experience</h2></div>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Sr. Android Developer — Plumscope Inc.</h3>
+          <p class="muted">Nepean, Canada • Oct 2022 – Feb 2024</p>
+          <ul class="list">
+            <li>Owned end-to-end Android delivery in Agile environment.</li>
+            <li>Cut crashes by <strong>50%</strong> via testing, debugging, and observability.</li>
+            <li>Introduced CI/CD pipelines; improved engineering throughput by <strong>30%</strong>.</li>
+            <li>Mentored junior engineers; enforced code quality and standards.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Sr. Android Dev & Team Lead — Prompt Softech</h3>
+          <p class="muted">Ahmedabad, India • Nov 2019 – Sep 2022</p>
+          <ul class="list">
+            <li>Led Android team for high-scale client apps; upgraded SDKs for stability & security.</li>
+            <li>Boosted performance by <strong>80%</strong> through refactoring & architectural shifts.</li>
+            <li>Defined testing strategies; reduced post-release defects by <strong>20%</strong>.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Sr. Android Developer — Appesperta (SJM Tech)</h3>
+          <p class="muted">Ahmedabad, India • Jan 2016 – Oct 2019</p>
+          <ul class="list">
+            <li>Delivered NFC/Bluetooth mobile solutions for industrial & automotive clients.</li>
+            <li>Reverse‑engineered CAN/J1939 via Vector CANalyzer for diagnostics.</li>
+            <li>Resolved critical production issues, maintaining SLAs.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Earlier: NicheTech • Prismetric</h3>
+          <p class="muted">Oct 2012 – Sep 2015</p>
+          <ul class="list">
+            <li>Built Matrubharti (1M+ users) and multiple consumer apps with rich media.</li>
+            <li>Collaborated with designers to ship engaging, performant UI/UX.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="certs">
+      <div class="section-title"><span class="dot"></span><h2 style="margin:0">Certifications</h2></div>
+      <div class="grid cols-3">
+        <div class="card"><strong>Meta Android Developer</strong><br/><span class="muted">Coursera • 2023</span></div>
+        <div class="card"><strong>Meta iOS Developer</strong><br/><span class="muted">Coursera • 2023</span></div>
+        <div class="card"><strong>Certified Android Developer</strong><br/><span class="muted">Tops Technologies • 2012</span></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-title"><span class="dot"></span><h2 style="margin:0">Contact</h2></div>
+      <div class="card">
+        <p>
+          📍 Surrey, BC • 📧 <a href="mailto:dirghakathiriya@gmail.com">dirghakathiriya@gmail.com</a> • 🔗 <a href="https://www.linkedin.com/in/dirghak" target="_blank" rel="noopener">linkedin.com/in/dirghak</a>
+        </p>
+        <p class="muted">Tip: Replace <code class="inline">resume.pdf</code> with your actual file, and add a custom domain later.</p>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Dirgha Kathiriya • Built with semantic HTML & a sprinkle of CSS.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
